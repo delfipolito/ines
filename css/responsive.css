@@ -1,0 +1,50 @@
+/*MEDIA SIZE*/
+
+@media (max-width: 600px) { /*Para monitores small*/
+	.valign-wrapper {height: auto!important;}
+  nav a {padding-right: 0px;padding-left: 0px;margin: 0;}
+	.button-collapse {margin: 2px 0!important;}
+	nav ul a:hover {line-height: 48px!important;}
+	nav {height: 69px;}
+	nav .button-collapse {margin: -6px!important;}
+	#trayectoria {height: auto!important;}
+}
+
+@media (min-width: 601px) and (max-width: 992px) { /*Para monitores medium*/
+	#trayectoria {height: auto!important;}
+	#talleres {height: auto!important;}
+	#talleres h6 {margin-top: 30px;}
+	#talleres p {margin-bottom: 7px;}
+	#talleres button {margin-top: 0px;}
+
+}
+@media (min-width: 993px) and (max-width: 1200px){ /*Para monitores large*/
+
+}
+@media (min-width: 1200px) { /*Para monitores extra large*/
+
+}
+
+
+/* portrait */
+@media screen and (max-width: 600px) and (orientation:portrait) { /*para celulares vertical*/
+}
+/* landscape */
+@media screen and (max-width: 600px) and (orientation:landscape) {  /*para celulares horizontal*/
+}
+
+@media screen and (max-width: 991px) and (orientation:landscape){
+}
+
+@media (min-width: 1200px){
+  
+}
+@media (min-width: 350px) and (max-width: 767px) { /*Para iphone 6*/
+
+}
+@media (max-width: 350px) { /*Para iphone 5*/
+	#home h2 {font-size: 31px;margin-top: -110px;}
+	.phone-col{padding: 0px!important;margin-left: -2%!important;width: 95vw!important;}
+	.phone-line {left: 2px;}
+	.email-col{margin-left: -5%!important;}
+}
