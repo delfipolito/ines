@@ -9,16 +9,19 @@
     <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+     <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <script src="js/slick.min.js" type="text/javascript" charset="utf-8"></script>
     <meta http-equiv="imagetoolbar" content="no" /> <!-- No save icons -->
   </head>
   <body style="height: 100%;">  
     <div class="navbar-fixed">
       <nav>
         <div class="nav-wrapper">
-          <a id="#homeButtonMobile" class="hide-on-small-only brand-logo">INÉS MIGUENS</a>
-          <a id="#homeButton" class="hide-on-med-and-up brand-logo">INÉS MIGUENS</a>
+          <a id="#homeButtonMobile" class="homeButton hide-on-small-only brand-logo">INÉS MIGUENS</a>
+          <a id="#homeButton" class="homeButton hide-on-med-and-up brand-logo">INÉS MIGUENS</a>
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars" aria-hidden="true"></i></a>
           <ul class="right hide-on-med-and-down">
             <li><a id="talleresButton">Talleres</a></li>
@@ -147,9 +150,14 @@
       </div>
     </section>
     <section class="hidden" id="contacto">
+      <div class="only-mobile contacto-title">
+        <h1>Contacto.</h1>
+        <p>+54 11 xxxx xxxx </p>
+        <p>inesmiguensphoto@gmail.com</p>
+      </div>
       <div class="container valign-wrapper">
         <div class="row valign allWidth">
-          <div class="col l6">
+          <div class="col l6 only-large">
             <p>
               <span class="content">+54 11 xxxx xxxx </span>
               <span class="content">|</span>
@@ -186,45 +194,102 @@
     <section class="valign-wrapper hidden" id="travelandworkshops">
       <div class="container valign">
         <div class="row valign-wrapper">
-          <div class="col s12 m6 l4 travel-div valign">
+          <div class="col s12 m12 l4 travel-div valign">
             <div>
               <h1>Travel and Workshops.</h1>
               <p>Hace 20 años fue una decisión armar workshops alrededor del mundo. El objetivo es poder internarnos en otra cultura, absorber su idiosincracia, enfocar en su esencia y retratar su estilo de vida, retratos, street photography, paisajes y vida intima.  Hemos recorrido America, Africa, Europa y Asia. Algunos de los lugares son: Argentina, Guatemala, Bolivia, Peru, Marruecos, Kenya, Tanzania, Egipto, Alemania, Nepal, India, Birmania, Laos, Vietnam y Camboya.</p>
               <button>Contratar</button>
             </div>
           </div>
-          <div class="col s12 m6 l8 photo-container">
-            <img src="./images/travel/6.jpg">
-            <img src="./images/travel/1.jpeg">
+         <div class="col s12 m12 l8 photo-container sider">
+            <div>
+              <img src="./images/travel/1.jpeg">
+            </div>
+            <div>
+              <img src="./images/travel/2.jpg">
+            </div>
+            <div>
+              <img src="./images/travel/3.jpg">
+            </div>
+            <div>
+              <img src="./images/travel/4.jpg">
+            </div>
+            <div>
+              <img src="./images/travel/5.jpg">
+            </div>
+            <div>
+              <img src="./images/travel/6.jpg">
+            </div>
+            <div>
+              <img src="./images/travel/7.jpg">
+            </div>
+            <div>
+              <img src="./images/travel/8.jpg">
+            </div>
+            <div>
+              <img src="./images/travel/9.JPG">
+            </div>
+            <div>
+              <img src="./images/travel/10.jpg">
+            </div>
+            <div>
+              <img src="./images/travel/11.jpg">
+            </div>
+            <div>
+              <img src="./images/travel/12.JPG">
+            </div>
+            <div>
+              <img src="./images/travel/13.jpg">
+            </div>
+            <div>
+              <img src="./images/travel/14.jpg">
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="valign-wrapper" id="galeria">
-      <div class="valign container galeria-container">
-        <div class="col-lg-3 col-sm-4 col-xs-6 galeria-preview">
-          <div class="galeria-hover"></div>
-        </div>
-        <div class="col-lg-3 col-sm-4 col-xs-6 galeria-preview">
-          <div class="galeria-hover"></div>
-        </div>
-        <div class="col-lg-3 col-sm-4 col-xs-6 galeria-preview">
-          <div class="galeria-hover"></div>
-        </div>
-        <div class="col-lg-3 col-sm-4 col-xs-6 galeria-preview">
-          <div class="galeria-hover"></div>
-        </div>
-        <div class="col-lg-3 col-sm-4 col-xs-6 galeria-preview">
-          <div class="galeria-hover"></div>
-        </div>
-        <div class="col-lg-3 col-sm-4 col-xs-6 galeria-preview">
-          <div class="galeria-hover"></div>
-        </div>
-        <div class="col-lg-3 col-sm-4 col-xs-6 galeria-preview">
-          <div class="galeria-hover"></div>
-        </div>
-        <div class="col-lg-3 col-sm-4 col-xs-6 galeria-preview">
-          <div class="galeria-hover"></div>
+    <section class="" id="galeria">
+      <div class="container valign-wrapper galeria-container">
+        <div class="row valign">
+          <div class="col l3 m6 s6 galeria-preview" style="margin-bottom:-1px;" id="galery1">
+            <img src="./images/galeria/1.jpg">
+            <div class="galeria-hover" id="galery1Title">
+              
+              <p>DECONSTRUYENDO MUROS</p>
+              <button>Ver más</button>
+              
+            </div>
+          </div>
+          <div class="col l3 m6 s6 galeria-preview" id="galery2">
+            <img src="./images/galeria/2.jpg">
+            <div class="galeria-hover" id="galery2Title"></div>
+          </div>
+          <div class="col l3 m6 s6 galeria-preview" id="galery3">
+            <img src="./images/galeria/3.jpg">
+            <div class="galeria-hover" id="galery3Title">
+              hola
+            </div>
+          </div>
+          <div class="col l3 m6 s6 galeria-preview" id="galery4">
+            <img src="./images/galeria/4.JPG">
+            <div class="galeria-hover" id="galery4Title"></div>
+          </div>
+          <div class="col l3 m6 s6 galeria-preview" id="galery5">
+            <img src="./images/galeria/5.jpeg">
+            <div class="galeria-hover" id="galery5Title"></div>
+          </div>
+          <div class="col l3 m6 s6 galeria-preview" id="galery6">
+            <img src="./images/galeria/6.jpg">
+            <div class="galeria-hover" id="galery6Title"></div>
+          </div>
+          <div class="col l3 m6 s6 galeria-preview" id="galery7">
+            <img src="./images/galeria/7.jpg">
+            <div class="galeria-hover" id="galery7Title"></div>
+          </div>
+          <div class="col l3 m6 s6 galeria-preview" id="galery8">
+            <img src="./images/galeria/8.jpg">
+            <div class="galeria-hover" id="galery8Title"></div>
+          </div>
         </div>
       </div>
     </section>

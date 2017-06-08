@@ -82,18 +82,62 @@ section{
 
 /*GALERIA PREVIEW*/
 #galeria {
-  height: 100%;
-  background-color: grey;
+  height: calc(100vh - 89px);
+  background-color: white;
+  min-height: calc(100vh - 89px);
 }
 .galeria-container {
   width: 100%;
-  height: 100%;
+  min-width: 100%!important;
+  height: calc(100vh - 89px)!important;
+}
+.galeria-container .row{
+  margin: 0px;
+  width: 100%!important;
+  min-width: 100%!important;
 }
 .galeria-preview {
-  height: 50%;
-  background: red;
-  margin-top: 15px;
-  margin-bottom:  15px;
+  padding: 15px;
+  position: relative;
+  overflow: hidden;
+}
+.galeria-preview img{
+  width: 20vw;
+  height: 19vw;
+  margin: auto;
+  position: absolute;
+  top: 0px;
+  left: 2.5vw;
+  z-index: 1;
+}
+#galeria .row {
+  width: 100%!important;
+}
+#galeria .row .col {
+  padding: 2.5px 5px!important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.galeria-hover {
+  background: white;
+  opacity: 0;
+  margin: auto;
+  width: 17vw;
+  height: 16vw;
+  margin: 1.5vh 3.5vw;
+  position: relative;
+  z-index: 4;
+}
+
+.galeria1 {
+  background-image: url('../images/galeria/1.jpg');
+  height: calc(50vh - 62px);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
 }
 
 /*NAVBAR*/
@@ -158,6 +202,7 @@ nav ul a:hover {
   padding-right: 30px;
   padding-left: 30px;
   letter-spacing: 4px;
+  cursor: pointer;
 }
 
 
@@ -171,12 +216,43 @@ nav ul a:hover {
   text-align: center;
   padding: 15px;
 }
+
+.contacto-title {
+  background-color: #f8f8f8;
+  height: 244px;
+  text-align: left;
+  padding: 30px;
+}
+.contacto-title h1 {
+  font-family: 'PlayfairBlack';
+  font-size: 24px;
+  letter-spacing: 1px;
+  border-bottom: solid 1.5px black;
+  width: 118px;
+  line-height: 36px;
+}
+.contacto-title p {
+  font-size: 14.5px;
+  color: grey;
+  font-family: 'PlayfairRegular';
+  letter-spacing: 1px;
+}
+
 textarea.materialize-textarea, input {
   margin: 0 0 0px 0!important;
   font-family: 'PlayfairRegular';
 }
 label {
+  font-family: inherit!important;
+  border-bottom: solid 0px transparent!important;
+  letter-spacing: 0.5px;
+  font-size: 12px!important;
+}
+
+label .active {
+  color: inherit!important;
   font-family: 'PlayfairRegular';
+  border-bottom: solid 0px transparent;
 }
 .contact-button {
   letter-spacing: 4px;
@@ -425,13 +501,13 @@ label {
   background: #ebebeb;
 }
 
-.photo-container {
-  display: inline-flex;
-}
-
 #travelandworkshops img {
   height: calc(100vh - 150px);
   display: inline;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.slick-arrow, .slick-dots {
+  opacity: 0;
 }

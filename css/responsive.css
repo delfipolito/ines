@@ -7,15 +7,51 @@
 	nav ul a:hover {line-height: 48px!important;}
 	nav {height: 69px;}
 	nav .button-collapse {margin: -6px!important;}
+	.navbar-fixed {height: 70px!important;}
+	
 	#trayectoria {height: auto!important;}
+
+	.galeria-preview img {width: 48vw;height: 48vw;left: 1vw;}
+	.galeria-preview {height: 50vw;}
+	#galeria .row {height: auto!important;}
+	.galeria-hover {width: 44vw;height: 44vw;margin: 1vw 2.5vw;}
+	.galeria-container {height: auto!important;}
+
+	.side-nav li>a {line-height: 21px;padding: 40px 32px;}
+	#sidenav-overlay {opacity: 0!important; display: none!important; } 
+	nav ul a:hover {line-height: 22px!important;}
+
+	#contacto{min-height: 100vh; background: white; padding: 0px;}
+	#contacto .container {min-height: auto; padding:15px;width: 87%;margin: 0px;}
+
+	.only-mobile {display: inherit;}
+	.only-large {display: none;}
 }
 
 @media (min-width: 601px) and (max-width: 992px) { /*Para monitores medium*/
+	.only-mobile {display: inherit;}
+	.only-large {display: none;}
+
+	body {height: auto!important;overflow: inherit!important;}
+
+	#contacto{min-height: 100vh; background: white; padding: 0px;}
+	#contacto .container {min-height: auto; padding:15px;width: 87%;margin: 0px;}
+
 	#trayectoria {height: auto!important;}
-	#talleres {height: auto!important;}
+	#talleres {height: auto!important;width: 100vw;}
 	#talleres h6 {margin-top: 30px;}
 	#talleres p {margin-bottom: 7px;}
 	#talleres button {margin-top: 0px;}
+
+	.side-nav li>a {line-height: 21px;padding: 40px 32px;}
+	#sidenav-overlay {opacity: 0!important; display: none!important; } 
+	nav ul a:hover {line-height: 22px!important;}
+
+	.galeria-preview img {width: 48vw;height: 48vw;left: 1vw;}
+	.galeria-preview {height: 50vw;}
+	#galeria .row {height: auto!important;}
+	.galeria-hover {width: 44vw;height: 44vw;margin: 1vw 2.5vw;}
+	.galeria-container {height: auto!important;}
 
 }
 @media (min-width: 993px) and (max-width: 1200px){ /*Para monitores large*/
