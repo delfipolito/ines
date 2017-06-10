@@ -55,6 +55,9 @@ section{
 .only-large {
   display: inherit;
 }
+.only-xs {
+  display: none;
+}
 .no-padding {
   padding: 0px!important;
 }
@@ -319,6 +322,20 @@ label .active {
   top: 69px;
   font-family: 'PlayfairBlack';
   font-size: 54px;
+}
+#talleres h2 {
+  font-family: 'PlayfairBlack';
+  font-size: 24px;
+  letter-spacing: 1px;
+  border-bottom: solid 1.5px black;
+  width: 118px;
+  line-height: 36px;
+}
+#talleres .mobile-title {
+  width: 100vw;
+  background: white;
+  padding: 25.5px;
+  margin: -33px -15px 0px -15px;
 }
 #talleres p {
   font-family: 'SansLight';

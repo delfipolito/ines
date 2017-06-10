@@ -20,26 +20,55 @@
 	.side-nav li>a {line-height: 21px;padding: 40px 32px;}
 	#sidenav-overlay {opacity: 0!important; display: none!important; } 
 	nav ul a:hover {line-height: 22px!important;}
+	nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {height: 77px;line-height: 103px;}
 
 	#contacto{min-height: 100vh; background: white; padding: 0px;}
-	#contacto .container {min-height: auto; padding:15px;width: 87%;margin: 0px;}
+	#contacto .container {min-height: auto; padding:15px;width: 87%;margin: auto;}
+
+	#travelandworkshops {height: auto!important;overflow: scroll;}
+	#travelandworkshops .valign-wrapper {display: inherit!important;}
+	#travelandworkshops img {margin-top: 20px}
+	.travel-div {text-align: left!important;padding-bottom: 108px!important;}
+	.photo-container {margin-top: -90px;padding-left: 20px;padding-right: 20px;margin-left: 0px;}
+	#travelandworkshops img {margin-left: 0px;margin-right: 0px;}
+	
+	#talleres h1 {display: none}
+	.talleres-img {display: none}
+	#talleres p {margin-bottom: 7px;}
+	#talleres button {margin-top: 0px;}
+	#talleres .white-box {background-color: transparent;padding-top: 0px!important;margin-top: 0px; text-align: left;}
+	#talleres h6 {margin: initial;margin-top: 55px;}
+
 
 	.only-mobile {display: inherit;}
 	.only-large {display: none;}
+	.only-xs {display: inherit;}
+	body {height: auto!important;overflow: inherit!important;}
 }
 
 @media (min-width: 601px) and (max-width: 992px) { /*Para monitores medium*/
+
 	.only-mobile {display: inherit;}
 	.only-large {display: none;}
+	.only-xs {display: none;}
+
+	nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {height: 90px;line-height: 90px;}
 
 	body {height: auto!important;overflow: inherit!important;}
 
 	#contacto{min-height: 100vh; background: white; padding: 0px;}
-	#contacto .container {min-height: auto; padding:15px;width: 87%;margin: 0px;}
+	#contacto .container {min-height: auto; padding:15px;width: 87%;margin: auto;}
+
+	#travelandworkshops {height: auto!important;}
+	#travelandworkshops .valign-wrapper {display: inherit!important;}
+	#travelandworkshops img {margin-top: 20px}
 
 	#trayectoria {height: auto!important;}
+	#trayectoria h1 {left: 3px;}
+	.grey-box {width: 34%;}
+
 	#talleres {height: auto!important;width: 100vw;}
-	#talleres h6 {margin-top: 30px;}
+	#talleres h6 {margin-top: 55px;}
 	#talleres p {margin-bottom: 7px;}
 	#talleres button {margin-top: 0px;}
 
