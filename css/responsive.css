@@ -40,6 +40,9 @@
 	#talleres h6 {margin: initial;margin-top: 55px;}
 
 
+	#trayectoria .white-box {background-color: transparent;}
+
+
 	.only-mobile {display: inherit;}
 	.only-large {display: none;}
 	.only-xs {display: inherit;}
