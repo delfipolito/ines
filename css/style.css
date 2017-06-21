@@ -16,6 +16,10 @@
  src: url('../fonts/Sans/SourceSansPro-Italic.ttf') format('opentype');
 }
 @font-face {
+ font-family: 'SansLightItalic';
+ src: url('../fonts/Sans/SourceSansPro-LightItalic.ttf') format('opentype');
+}
+@font-face {
  font-family: 'PlayfairBlack';
  src: url('../fonts/Playfair/PlayfairDisplay-Black.ttf') format('opentype');
 }
@@ -63,6 +67,9 @@ section{
 }
 .centered {
   text-align: center;
+}
+.left-aligned {
+  text-align: left!important;
 }
 .valign-wrapper {
   display: -webkit-flex;
@@ -143,7 +150,7 @@ section{
   margin-left: 7px;
   margin-right: 7px;
 }
-.galeria-hover button {
+.galeria-hover a {
   letter-spacing: 1px;
   font-family: 'PlayfairRegular';
   color: black;
@@ -153,7 +160,7 @@ section{
   font-size: 11px;
   margin-top: 10px;
 }
-.galeria-hover button:hover {
+.galeria-hover a:hover {
   font-family: 'PlayfairBold';
 }
 .galeria1 {
@@ -558,3 +565,71 @@ label .active {
 .slick-arrow, .slick-dots {
   opacity: 0;
 }
+
+
+/*INSIDE GALERY*/
+.presentation {
+  height: calc(100vh - 89px)!important;
+  background-color: white;
+  min-height: calc(100vh - 89px);
+  background: grey; /* Old browsers */
+  background: -moz-linear-gradient(left, #f4f4f4 0%, #f4f4f4 60%, #ffffff 60%, #ffffff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #f4f4f4 0%,#f4f4f4 60%,#ffffff 60%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #f4f4f4 0%,#f4f4f4 60%,#ffffff 60%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+}
+.presentation h1 {
+  font-family: 'PlayfairBold';
+  font-size: 26px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.presentation p {
+  font-family: 'SansLight';
+  font-size: 14px;
+  line-height: 26px;
+  text-align: justify;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
+  word-wrap: break-word;
+  color: grey;
+}
+
+.presentation p.italic {
+  font-family: 'SansLightItalic'!important;
+}
+
+.presentation hr {
+  margin-top: 20px;
+  color: grey;
+}
+
+.presentation a{
+  font-size: 14px;
+  font-family: 'SansLight';
+  word-wrap: break-word;
+  color: grey;
+}
+
+.presentation .line {
+  width: 52px;
+  display: block;
+  border-top: 2px solid #000;
+  vertical-align: top;
+  margin-bottom: 30px;
+}
+.galery-img {
+  margin-left: 10%;
+  width: 80%;
+}
+.galery-img-vertical {
+  margin-left: 10%;
+  width: 60%;
+}
+

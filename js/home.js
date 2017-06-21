@@ -2,44 +2,44 @@ $( document ).ready(function(){
    $(".button-collapse").sideNav();
 
   // ROUTING WEB
-	$("#trayectoriaButton").click( function() {
+	$(".trayectoriaButton").click( function() {
   	$('#talleres').addClass('hidden');
   	$('#contacto').addClass('hidden');
   	$('#galeria').addClass('hidden');
   	$('#travelandworkshops').addClass('hidden');
   	$('#trayectoria').removeClass('hidden');
   	$('.active').removeClass('active');
-  	$("#trayectoriaButton").addClass('active');
+  	$(".trayectoriaButton").addClass('active');
   });
 
-  $("#talleresButton").click( function() {
+  $(".talleresButton").click( function() {
   	$('#trayectoria').addClass('hidden');
   	$('#contacto').addClass('hidden');
   	$('#galeria').addClass('hidden');
   	$('#travelandworkshops').addClass('hidden');
   	$('#talleres').removeClass('hidden');
   	$('.active').removeClass('active');
-  	$("#talleresButton").addClass('active');
+  	$(".talleresButton").addClass('active');
   });
 
-  $("#travelandworkshopsButton").click( function() {
+  $(".travelandworkshopsButton").click( function() {
     $('#trayectoria').addClass('hidden');
     $('#contacto').addClass('hidden');
     $('#galeria').addClass('hidden');
     $('#talleres').addClass('hidden');
     $('#travelandworkshops').removeClass('hidden');
     $('.active').removeClass('active');
-    $("#travelandworkshopsButton").addClass('active');
+    $(".travelandworkshopsButton").addClass('active');
   });
 
-  $("#contactoButton").click( function() {
+  $(".contactoButton").click( function() {
   	$('#talleres').addClass('hidden');
   	$('#trayectoria').addClass('hidden');
   	$('#galeria').addClass('hidden');
   	$('#travelandworkshops').addClass('hidden');
   	$('#contacto').removeClass('hidden');
   	$('.active').removeClass('active');
-  	$("#contactoButton").addClass('active');
+  	$(".contactoButton").addClass('active');
   });
 
   $(".homeButton").click( function() {
@@ -53,50 +53,50 @@ $( document ).ready(function(){
 
 
   // ROUTING MOBILE
-  $("#trayectoriaButtonMobile").click( function() {
+  $(".trayectoriaButtonMobile").click( function() {
     $('#talleres').addClass('hidden');
     $('#contacto').addClass('hidden');
     $('#galeria').addClass('hidden');
     $('#travelandworkshops').addClass('hidden');
     $('#trayectoria').removeClass('hidden');
     $('.active').removeClass('active');
-    $("#trayectoriaButtonMobile").addClass('active');
+    $(".trayectoriaButtonMobile").addClass('active');
     $(".button-collapse").sideNav();
   });
 
-  $("#talleresButtonMobile").click( function() {
+  $(".talleresButtonMobile").click( function() {
     $('#trayectoria').addClass('hidden');
     $('#contacto').addClass('hidden');
     $('#galeria').addClass('hidden');
     $('#travelandworkshops').addClass('hidden');
     $('#talleres').removeClass('hidden');
     $('.active').removeClass('active');
-    $("#talleresButtonMobile").addClass('active');
+    $(".talleresButtonMobile").addClass('active');
     $(".button-collapse").sideNav();
   });
-  $("#travelandworkshopsButtonMobile").click( function() {
+  $(".travelandworkshopsButtonMobile").click( function() {
     $('#trayectoria').addClass('hidden');
     $('#contacto').addClass('hidden');
     $('#galeria').addClass('hidden');
     $('#talleres').addClass('hidden');
     $('#travelandworkshops').removeClass('hidden');
     $('.active').removeClass('active');
-    $("#travelandworkshopsButtonMobile").addClass('active');
+    $(".travelandworkshopsButtonMobile").addClass('active');
     $(".button-collapse").sideNav();
   });
 
-  $("#contactoButtonMobile").click( function() {
+  $(".contactoButtonMobile").click( function() {
     $('#talleres').addClass('hidden');
     $('#trayectoria').addClass('hidden');
     $('#galeria').addClass('hidden');
     $('#travelandworkshops').addClass('hidden');
     $('#contacto').removeClass('hidden');
     $('.active').removeClass('active');
-    $("#contactoButtonMobile").addClass('active');
+    $(".contactoButtonMobile").addClass('active');
     $(".button-collapse").sideNav();
   });
 
-  $("#homeButtonMobile").click( function() {
+  $(".homeButtonMobile").click( function() {
     $('#talleres').addClass('hidden');
     $('#trayectoria').addClass('hidden');
     $('#contacto').addClass('hidden');
