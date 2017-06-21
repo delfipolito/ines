@@ -30,6 +30,7 @@
 	#travelandworkshops img {margin-top: 20px}
 	.travel-div {text-align: left!important;padding-bottom: 108px!important;}
 	.photo-container {margin-top: -90px;padding-left: 20px;padding-right: 20px;margin-left: 0px;}
+	#galery-photo-container {margin-top: 0px;padding-left: 20px;padding-right: 20px;margin-left: 0px;}
 	#travelandworkshops img {margin-left: 0px;margin-right: 0px;}
 	
 	#talleres h1 {display: none}
@@ -47,6 +48,9 @@
 	.only-large {display: none;}
 	.only-xs {display: inherit;}
 	body {height: auto!important;overflow: inherit!important;}
+
+
+	#section-slider {height: calc(100vh - 70px)!important;}
 }
 
 @media (min-width: 601px) and (max-width: 992px) { /*Para monitores medium*/
