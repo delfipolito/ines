@@ -581,9 +581,9 @@ label .active {
   background-color: white;
   min-height: calc(100vh - 89px);
   background: grey; /* Old browsers */
-  background: -moz-linear-gradient(top, #f4f4f4 0%, #f4f4f4 30%, #ffffff 30%, #ffffff 100%)!important; /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #f4f4f4 0%,#f4f4f4 30%,#ffffff 30%,#ffffff 100%)!important; /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to top, #f4f4f4 0%,#f4f4f4 30%,#ffffff 30%,#ffffff 100%)!important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(top, #f4f4f4 0%, #f4f4f4 40%, #ffffff 40%, #ffffff 100%)!important; /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f4f4f4 0%,#f4f4f4 40%,#ffffff 40%,#ffffff 100%)!important; /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to top, #f4f4f4 0%,#f4f4f4 40%,#ffffff 40%,#ffffff 100%)!important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
 }
 .presentation h1 {
@@ -632,6 +632,15 @@ label .active {
   vertical-align: top;
   margin-bottom: 30px;
 }
+
+.presentation .thin-line {
+  width: 52px;
+  display: block;
+  border-top: 2px solid #000;
+  vertical-align: top;
+  margin-bottom: 0px;
+}
+
 .galery-img {
   margin-left: 10%;
   width: 80%;
@@ -675,3 +684,9 @@ label .active {
   right: 10px!important; 
 }
 
+
+/*LIBROS*/
+.transparent-link {
+  cursor: default!important;
+  color: transparent!important;
+}
