@@ -562,12 +562,10 @@ label .active {
   margin-right: 10px;
 }
 
-.slick-arrow, .slick-dots {
-  opacity: 0;
-}
-
-
 /*INSIDE GALERY*/
+.slide-galeria-container {
+  height: calc(100vh - 250px)!important;
+}
 .presentation {
   height: calc(100vh - 89px)!important;
   background-color: white;
@@ -649,5 +647,31 @@ label .active {
   display: inline;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.slide-galeria-container img {
+  height: calc(100vh - 350px)!important;
+}
+
+
+/*SLICK*/
+.slick-next::before {
+  content: ">"!important;
+  color: black!important;
+}
+.slick-prev::before {
+  content: "<"!important;
+  color: black!important;
+}
+.whithout-arrow .slick-arrow, .slick-dots {
+  opacity: 0;
+}
+.slick-prev {
+  top: 90%!important;
+  left: 10px!important; 
+}
+.slick-next {
+  top: 90%!important;
+  right: 10px!important; 
 }
 
