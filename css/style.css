@@ -702,3 +702,9 @@ label .active {
   justify-content: center!important;
   display: flex!important;
 }
+
+#creenciasGalery .slick-slide {
+  text-align: center!important;
+  justify-content: center!important;
+  display: flex!important;
+}
