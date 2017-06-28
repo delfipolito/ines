@@ -659,7 +659,7 @@ label .active {
 }
 
 .slide-galeria-container img {
-  height: calc(100vh - 350px)!important;
+  height: calc(100vh - 250px)!important;
 }
 
 
@@ -676,11 +676,11 @@ label .active {
   opacity: 0;
 }
 .slick-prev {
-  top: 90%!important;
+  top: calc(100% + 25px)!important;
   left: 10px!important; 
 }
 .slick-next {
-  top: 90%!important;
+  top: calc(100% + 25px)!important;
   right: 10px!important; 
 }
 
