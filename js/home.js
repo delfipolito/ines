@@ -18,6 +18,14 @@ $( document ).ready(function(){
     autoplaySpeed: 2000,
   });
 
+  $('.fade').slick({
+    dots: false,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: 'linear'
+  });
+
 
   // GALERIA HOVER
   $("#galery1").mouseenter( function() {
