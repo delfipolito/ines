@@ -112,29 +112,29 @@ section{
   overflow: hidden;
 }
 .galeria-preview img{
-  width: 20vw;
-  height: 19vw;
-  margin: auto;
+  width: 23vw;
+  margin: 1vw;
   position: absolute;
   top: 0px;
-  left: 2.5vw;
+  left: 0;
   z-index: 1;
 }
 #galeria .row {
   width: 100%!important;
 }
 #galeria .row .col {
-  padding: 2.5px 5px!important;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  padding: 0!important;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 22vw;
 }
 .galeria-hover {
   background: white;
   opacity: 0;
   margin: auto;
-  width: 17vw;
-  height: 16vw;
-  margin: 1.5vh 3.5vw;
+  width: 18vw;
+  height: 17vw;
+  margin: 4.6vh 3.6vw;
   position: relative;
   z-index: 4;
   display: flex;
@@ -490,7 +490,7 @@ label .active {
 #trayectoria .title {
   font-family: 'PlayfairRegular';
   letter-spacing: 1px;
-  font-size: 12px;
+  font-size: 68%;
   text-align: left;
   margin-bottom: 2px;
   margin-top: 0px;
@@ -499,10 +499,11 @@ label .active {
 #trayectoria .subtitle {
   font-family: 'SansItalic';
   letter-spacing: 0.5px;
-  font-size: 12px;
+  font-size: 67%;
   text-align: left;
   margin-top: 0px;
   color: black;
+  margin-bottom: 7px;
 }
 
 
@@ -693,6 +694,25 @@ label .active {
 .transparent-link {
   cursor: default!important;
   color: transparent!important;
+}
+.libros-img {
+  width: 200px;
+}
+
+#libros a.ver-mas {
+  letter-spacing: 1px;
+  font-family: 'PlayfairRegular';
+  color: black;
+  border: solid 1px black;
+  background: transparent;
+  padding: 13px 20px;
+  font-size: 11px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+#libros a.ver-mas:hover {
+  font-family: 'PlayfairBold';
 }
 
 /*DECONSTRUYENDO*/
