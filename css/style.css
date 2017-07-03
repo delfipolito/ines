@@ -706,6 +706,9 @@ label .active {
 .row .hijos-del-sol {
   width: 187px;
 }
+.row .hijos-del-sol {
+  width: 139px;
+}
 .transparent-link {
   cursor: default!important;
   color: transparent!important;
