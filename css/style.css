@@ -703,6 +703,9 @@ label .active {
 
 
 /*LIBROS*/
+.row .hijos-del-sol {
+  width: 187px;
+}
 .transparent-link {
   cursor: default!important;
   color: transparent!important;

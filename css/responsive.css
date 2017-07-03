@@ -1,7 +1,14 @@
 /*MEDIA SIZE*/
 
 @media (max-width: 600px) { /*Para monitores small*/
-	.valign-wrapper {height: auto!important;}
+	.book-div {text-align: center!important;}
+	.libros-h1 {text-align: center!important;}
+	.libros-line {margin-left: 45px;}
+	.presentation.to-slide {height: auto!important;}
+	.row .hijos-del-sol {width: auto;}
+
+	.valign-wrapper {height: auto!important; display: flow-root;}
+	.presentation {padding-top: 30px;background: #f4f4f4!important;padding-bottom: 30px;}
   nav a {padding-right: 0px;padding-left: 0px;margin: 0;}
 	.button-collapse {margin: 2px 0!important;}
 	nav ul a:hover {line-height: 48px!important;}
