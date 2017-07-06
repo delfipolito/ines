@@ -15,6 +15,11 @@
     src: url('./fonts/slick.eot');
     src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
 }
+
+@font-face {
+ font-family: 'PlayfairBold';
+ src: url('../fonts/Playfair/PlayfairDisplay-Bold.ttf') format('opentype');
+}
 /* Arrows */
 .slick-prev,
 .slick-next
@@ -27,8 +32,8 @@
 
     display: block;
 
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     padding: 0;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
@@ -66,11 +71,11 @@
 .slick-prev:before,
 .slick-next:before
 {
-    font-family: 'slick';
-    font-size: 20px;
+    font-family: 'Playfair Display','PlayfairBold';
+    font-size: 40px;
     line-height: 1;
-
-    opacity: .75;
+    font-weight: bold;
+    opacity: 1;
     color: white;
 
     -webkit-font-smoothing: antialiased;

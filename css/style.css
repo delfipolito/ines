@@ -774,10 +774,14 @@ label .active {
 .slick-prev {
   top: calc(100% + 25px)!important;
   left: 10px!important; 
+  font-family: 'PlayfairBold';
+  font-size: 24px;
 }
 .slick-next {
   top: calc(100% + 25px)!important;
   right: 10px!important; 
+  font-family: 'PlayfairBold';
+  font-size: 24px;
 }
 
 
@@ -818,6 +822,10 @@ label .active {
 }
 
 /*DECONSTRUYENDO*/
+.retratos-img {
+  height: 74vh;
+}
+
 .deconstruyendo-img {
   height: 67vh;
 }
@@ -832,4 +840,24 @@ label .active {
   text-align: center!important;
   justify-content: center!important;
   display: flex!important;
+}
+
+.work-img {
+  height: calc(100vh - 300px)!important;
+}
+.work-title {
+  letter-spacing: 2px!important;
+  font-family: 'PlayfairRegular'!important;
+  color: black!important;
+  font-size: 11px;
+  text-transform: uppercase;
+  padding-left: 11px;
+}
+.work-transparent-title {
+  letter-spacing: 1px;
+  font-family: 'PlayfairRegular';
+  color: transparent!important;
+  font-size: 11px;
+  text-transform: uppercase;
+  padding-left: 11px;
 }
