@@ -349,6 +349,12 @@ textarea.materialize-textarea, input {
   margin: 0 0 0px 0!important;
   font-family: 'PlayfairRegular';
 }
+input {
+  font-family: 'SansRegular'!important;
+}
+textarea {
+  font-family: 'SansRegular'!important;
+}
 label {
   border-bottom: solid 0px transparent!important;
   letter-spacing: 0.5px;
@@ -373,6 +379,9 @@ label .active {
 }
 .contact-button:hover {
   font-family: 'SansRegular';
+}
+.contact-button:focus {
+  background: transparent!important;
 }
 #contacto .content {  
   font-family: 'SansLight';
