@@ -135,9 +135,9 @@ section{
   justify-content: center;
   position: absolute;
   bottom: 10%;
-  width: 80%;
-  left: 10%;
-  height: 80%;
+  width: 84%;
+  left: 8%;
+  height: 84%;
 }
 
 .home-row {
@@ -615,7 +615,7 @@ label .active {
   text-align: left;
 }
 
-#travelandworkshops button {
+#travelandworkshops .button {
   letter-spacing: 2px;
   font-family: 'PlayfairRegular';
   color: black;
@@ -642,12 +642,12 @@ label .active {
   background: #ebebeb;
 }
 
-#travelandworkshops img {
+/*#travelandworkshops img {
   height: calc(100vh - 150px);
   display: inline;
   margin-left: 10px;
   margin-right: 10px;
-}
+}*/
 
 /*INSIDE GALERY*/
 .slide-galeria-container {
