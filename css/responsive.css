@@ -55,18 +55,20 @@
 	#trayectoria .white-box {background-color: transparent;}
 
 
-	.only-mobile {display: inherit;}
-	.only-large {display: none;}
+	.only-mobile {display: inherit!important;}
+	.only-large {display: none!important;}
 	.only-xs {display: inherit;}
 	body {height: auto!important;overflow: inherit!important;}
-
-
+	#publiLarge {display: none!important}
+	#publiXs {display: block!important}
 	#section-slider {height: calc(100vh - 70px)!important;}
 }
 
 @media (min-width: 601px) and (max-width: 992px) { /*Para monitores medium*/
-	.only-mobile {display: inherit;}
-	.only-large {display: none;}
+	#publiLarge {display: block!important}
+	#publiXs {display: none!important}
+	.only-mobile {display: inherit!important;}
+	.only-large {display: none!important;}
 	.only-xs {display: none;}
 
 	nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {height: 90px;line-height: 90px;}
@@ -101,10 +103,12 @@
 
 }
 @media (min-width: 993px) and (max-width: 1200px){ /*Para monitores large*/
-
+	#publiLarge {display: block!important}
+	#publiXs {display: none!important}
 }
 @media (min-width: 1200px) { /*Para monitores extra large*/
-
+	#publiLarge {display: block!important}
+	#publiXs {display: none!important}
 }
 
 

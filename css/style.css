@@ -54,13 +54,13 @@ section{
   display: none!important;
 }
 .only-mobile {
-  display: none;
+  display: none!important;
 }
 .only-large {
   display: inherit;
 }
 .only-xs {
-  display: none;
+  display: none!important;
 }
 .no-padding {
   padding: 0px!important;
@@ -840,6 +840,18 @@ label .active {
 }
 
 #creenciasGalery .slick-slide {
+  text-align: center!important;
+  justify-content: center!important;
+  display: flex!important;
+}
+
+#publiLarge .slick-slide {
+  text-align: center!important;
+  justify-content: center!important;
+  display: flex!important;
+}
+
+#publiXs .slick-slide {
   text-align: center!important;
   justify-content: center!important;
   display: flex!important;
