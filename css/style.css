@@ -474,7 +474,7 @@ label .active {
   border-bottom: solid 1.5px black;
   margin: auto;
 }
-#talleres button {
+#talleres a {
   letter-spacing: 1px;
   font-family: 'PlayfairRegular';
   color: black;
@@ -483,9 +483,12 @@ label .active {
   padding: 13px 20px;
   font-size: 11px;
   margin-top: 10px;
+  text-decoration: none;
 }
-#talleres button:hover {
+#talleres a:hover {
   font-family: 'PlayfairBold';
+  text-decoration: none;
+  color: black;
 }
 
 /*TRAYECTORIA*/
