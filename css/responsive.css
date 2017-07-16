@@ -1,6 +1,7 @@
 /*MEDIA SIZE*/
 
 @media (max-width: 600px) { /*Para monitores small*/
+	.ver-mas-row {text-align: center; margin-left: 0px!important;}
 	.book-div {text-align: center!important; margin: auto!important; width: 100%;}
 	.libros-h1 {text-align: center!important;}
 	.hijos-line {margin-left: calc(50% - 74px);}

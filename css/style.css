@@ -50,6 +50,11 @@ section{
 .relative {
   position: relative;
 }
+.trayectoria-relative {
+  margin-left: -6px;
+  padding-left: 6px;
+  position: relative;
+}
 .hidden {
   display: none!important;
 }
@@ -492,6 +497,17 @@ label .active {
 }
 
 /*TRAYECTORIA*/
+.point {
+  content: '';
+  width: 4px;
+  height: 4px;
+  display: inline-block;
+  border-radius: 5px;
+  background: black;
+  position: absolute;
+  left: -2px;
+  top: 5px;
+}
 #trayectoria {
   background-color: #f8f8f8;
   height: calc(100% - 89px);
@@ -789,6 +805,13 @@ label .active {
 
 
 /*LIBROS*/
+#libros h1 {
+  font-size: 21px;
+}
+
+#libros .thin-line {
+  width: 38px;
+}
 .row .hijos-del-sol {
   width: 187px;
 }
@@ -807,6 +830,10 @@ label .active {
   width: 215px;
   margin: 0 35px;
 }
+.ver-mas-row {
+  text-align: left; 
+  margin-left: 43px!important;
+}
 
 #libros a.ver-mas {
   letter-spacing: 1px;
@@ -814,7 +841,7 @@ label .active {
   color: black;
   border: solid 1px black;
   background: transparent;
-  padding: 13px 20px;
+  padding: 9px 15px;
   font-size: 11px;
   margin-top: 10px;
   text-transform: uppercase;
