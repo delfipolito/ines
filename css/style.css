@@ -499,13 +499,13 @@ label .active {
 /*TRAYECTORIA*/
 .point {
   content: '';
-  width: 4px;
-  height: 4px;
+  width: 5px;
+  height: 5px;
   display: inline-block;
-  border-radius: 5px;
+  border-radius: 10px;
   background: black;
   position: absolute;
-  left: -2px;
+  left: -3px;
   top: 5px;
 }
 #trayectoria {
