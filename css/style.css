@@ -903,3 +903,10 @@ label .active {
   text-transform: uppercase;
   padding-left: 11px;
 }
+
+.thanks-div {
+  font-family: 'SansLight';
+  padding-right: 10px;
+  font-size: 16px;
+  color: black;
+}
