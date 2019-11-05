@@ -1,6 +1,7 @@
 $( document ).ready(function(){
    $(".button-collapse").sideNav();
 
+
   // PHOTO SLIDES
   $(".photo-container").slick({
     dots: true,
@@ -83,5 +84,19 @@ $( document ).ready(function(){
   $("#galery8").mouseleave( function() {
     $("#galery8Title").animate({opacity: "0"});
   });
-    
+
+  $(".click-eng").click(function(){
+    $('.english').css('display', 'inherit');
+    $('.click-spa').css('display', 'inherit');
+    $('.spanish').css('display', 'none');
+    $('.click-eng').css('display', 'none');
+  });
+
+  $(".click-spa").click(function(){
+    $('.spanish').css('display', 'inherit');
+    $('.click-eng').css('display', 'inherit');
+    $('.english').css('display', 'none');
+    $('.click-spa').css('display', 'none');
+  });
+
 })

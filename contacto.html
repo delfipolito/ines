@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html style="height: 100%;">
   <head>
-    <title>Inés Miguens</title>
+    <title>Inés Miguens Photo</title>
     <meta charset="UTF-8"> <!--Encoding -->
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!--Movile first -->
     <script src="js/jquery.min.js"></script><!--JQuery 1.11.2 local -->
     <script type="text/javascript" src="js/home.js"></script>
     <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
     <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/mail.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/slick.css">
     <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
@@ -16,6 +15,14 @@
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <script src="js/slick.min.js" type="text/javascript" charset="utf-8"></script>
     <meta http-equiv="imagetoolbar" content="no" /> <!-- No save icons -->
+
+    <script type="text/javascript" src="js/email.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function(){
+        emailjs.init("user_HUEq3tXG8mIWjcMi2rJMO");
+      })();
+    </script>
   </head>
   <body style="height: 100%;">  
     <div class="navbar-fixed">
@@ -25,16 +32,16 @@
           <a id="#homeButton" href="./" class="homeButton hide-on-med-and-up brand-logo">INÉS MIGUENS</a>
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars" aria-hidden="true"></i></a>
           <ul class="right hide-on-med-and-down">
-            <li><a href="./talleres">Talleres</a></li>
-            <li><a href="./travelAndWorkshops">Travel and workshops</a></li>
-            <li><a href="./trayectoria">Trayectoria</a></li>
-            <li><a href="./contacto" class="a-active">Contacto</a></li>
+            <li><a href="./talleres.html">Talleres</a></li>
+            <li><a href="./travelAndWorkshops.html">Travel and workshops</a></li>
+            <li><a href="./trayectoria.html">Trayectoria</a></li>
+            <li><a href="./contacto.html" class="a-active">Contacto</a></li>
           </ul>
           <ul class="side-nav" id="mobile-demo">
-            <li><a href="./talleres">Talleres</a></li>
-            <li><a href="./travelAndWorkshops">Travel and workshops</a></li>
-            <li><a href="./trayectoria">Trayectoria</a></li>
-            <li><a href="./contacto" class="a-active">Contacto</a></li>
+            <li><a href="./talleres.html">Talleres</a></li>
+            <li><a href="./travelAndWorkshops.html">Travel and workshops</a></li>
+            <li><a href="./trayectoria.html">Trayectoria</a></li>
+            <li><a href="./contacto.html" class="a-active">Contacto</a></li>
           </ul>
         </div>
       </nav>
@@ -42,34 +49,34 @@
     <section id="contacto">
       <div class="only-mobile contacto-title">
         <h1>Contacto.</h1>
-        <p>+54 11 xxxx xxxx </p>
+        <p>+54 11 5467 5902 </p>
         <p>inesmiguensphoto@gmail.com</p>
       </div>
       <div class="container valign-wrapper">
         <div class="row valign allWidth">
           <div class="col l6 only-large">
-            <img style="width:400px;" src="./images/contact.jpg">
+            <img style="width:250px;" src="./images/contact.jpg">
             <p>
-              <span class="content">+54 11 xxxx xxxx </span>
+              <span class="content">+54 11 5467 5902 </span>
               <span class="content">|</span>
               <span class="content">inesmiguensphoto@gmail.com</span></p>
           </div>
-          <form class="col l5 s12" id="mailgun" role="form">
+          <form class="col l5 s12" id="mailgun">
             <div class="row">
               <div class="input-field col s12">
-                <input id="form-name" type="text" class="validate" required>
+                <input id="name" name="name" type="text" class="validate" required>
                 <label for="name">Nombre y Apellido</label>
               </div>
             </div>
             <div class="row">
               <div class="input-field col s12">
-                <input id="form-email" type="email" class="validate" required>
+                <input id="email" name="email" type="email" class="validate" required>
                 <label for="email">Email</label>
               </div>
             </div>
             <div class="row">
               <div class="input-field col s12">
-                <textarea id="form-message" class="materialize-textarea" required></textarea>
+                <textarea id="message" name="message" class="materialize-textarea" required></textarea>
                 <label for="message">Mensaje</label>
               </div>
             </div>

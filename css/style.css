@@ -121,7 +121,7 @@ section{
 #home .galeria-preview {
   padding: 0px;
   position: relative;
-  
+
 }
 #home .galeria-preview img{
   width: 95%;
@@ -246,7 +246,7 @@ section{
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; 
+  background-size: cover;
 }
 
 /*NAVBAR*/
@@ -388,9 +388,9 @@ label .active {
 .contact-button:focus {
   background: transparent!important;
 }
-#contacto .content {  
+#contacto .content {
   font-family: 'SansLight';
-  padding-right: 10px; 
+  padding-right: 10px;
   font-size: 14.5px;
   color: black;
 }
@@ -418,7 +418,7 @@ label .active {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; 
+  background-size: cover;
 }
 .white-box {
   background-color: white;
@@ -531,7 +531,7 @@ label .active {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; 
+  background-size: cover;
 }
 .trayectoria-container {
   max-width: 1200px!important;
@@ -634,7 +634,7 @@ label .active {
   text-align: left;
 }
 
-#travelandworkshops .button {
+#travelandworkshops .contratar {
   letter-spacing: 2px;
   font-family: 'PlayfairRegular';
   color: black;
@@ -660,13 +660,6 @@ label .active {
   padding: 35px 50px!important;
   background: #ebebeb;
 }
-
-/*#travelandworkshops img {
-  height: calc(100vh - 150px);
-  display: inline;
-  margin-left: 10px;
-  margin-right: 10px;
-}*/
 
 /*INSIDE GALERY*/
 .slide-galeria-container {
@@ -792,13 +785,13 @@ label .active {
 }
 .slick-prev {
   top: calc(100% + 25px)!important;
-  left: 10px!important; 
+  left: 10px!important;
   font-family: 'PlayfairBold';
   font-size: 24px;
 }
 .slick-next {
   top: calc(100% + 25px)!important;
-  right: 10px!important; 
+  right: 10px!important;
   font-family: 'PlayfairBold';
   font-size: 24px;
 }
@@ -831,7 +824,7 @@ label .active {
   margin: 0 35px;
 }
 .ver-mas-row {
-  text-align: left; 
+  text-align: left;
   margin-left: 43px!important;
 }
 
@@ -909,4 +902,20 @@ label .active {
   padding-right: 10px;
   font-size: 16px;
   color: black;
+}
+
+
+.english, .click-spa {
+  display: inherit;
+}
+.spanish, .click-eng {
+  display: none;
+}
+.click-eng, .click-spa {
+  cursor: pointer;
+  font-family: 'SansSemibold', sans-serif !important;
+}
+
+#talleres a, #travelandworkshops .contratar {
+  display: inline-block;
 }
